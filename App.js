@@ -73,7 +73,7 @@ const bottomTabNavigator = createBottomTabNavigator(
       screen: NotificationsScreen,
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="user" size={25} color={tintColor} />
+          <Icon name="search" size={25} color={tintColor} />
         )
       }
     },
@@ -81,7 +81,7 @@ const bottomTabNavigator = createBottomTabNavigator(
       screen: ProfileScreen,
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="search" size={25} color={tintColor} />
+          <Icon name="profile" size={25} color={tintColor} />
         )
       }
     },
